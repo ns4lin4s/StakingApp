@@ -1,0 +1,8 @@
+services:
+  foundry:
+    build: .
+    volumes:
+      - .:/app
+    # Esto mantiene el contenedor encendido si necesitas entrar a él
+    tty: true 
+    stdin_open: true

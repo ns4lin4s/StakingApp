@@ -64,3 +64,8 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+
+docker-compose run --rm foundry sh
+forge coverage
+
